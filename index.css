@@ -1,0 +1,148 @@
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 6px 8px 8px 8px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.8
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.8
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.main-new-products {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+}
+
+.main-new-products-heading {
+    margin: 40px 300px 40px 300px;
+    text-align: center;
+}
+
+.main-new-products-heading h1 {
+    padding: 20px;
+    font-size: 40PX;
+    border-bottom: 1px solid white;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-new-products-pic {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.new-new-product2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.new-product {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.new-product img {
+    margin: 10px;
+}
+
+.new-products h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-new-products-foot {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-new-products-foot h3 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-new-products-foot a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
