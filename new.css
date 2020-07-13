@@ -156,7 +156,7 @@
 
 .new-launches-2-2 img {
     width: 100%;
-    height: 130px;
+    height: 230px;
 }
 
 .index-news {
@@ -265,4 +265,38 @@
 .products-4 img {
     width: 100%;
     height: 300px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 38%;
+    background-color: #f5f2eb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #282829;
+    font-size: small;
+    font-weight: lighter;
+    padding: 6px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #282829;
+    color: #f5f2eb;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 10px;
 }
