@@ -57,17 +57,18 @@ body {
     width: 100%;
 }
 
-.header-navbar a {
+.header-navbar li a {
     text-decoration: none;
     text-align: center;
     color: #ffffff;
+    font-size: 17px;
+    font-weight: lighter;
     padding: 14px;
-    font-size: 20px;
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
 }
 
-.header-navbar a:hover {
+.header-navbar li a:hover {
     color: #95c41e;
     transition: 0.5s ease-out;
 }
@@ -112,6 +113,11 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+}
+
+.footer-1-logo img {
+    width: 250px;
+    height: 85px;
 }
 
 .foter-1-address {
