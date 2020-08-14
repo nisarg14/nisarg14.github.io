@@ -1,6 +1,6 @@
 .new-launches {
     margin: 30px;
-    border-top: 6px solid #95c41e;
+    border-top: 6px solid #97c055;
 }
 
 .new-launches img {
@@ -10,7 +10,7 @@
 
 .products-slideshow {
     margin: 30px;
-    border-top: 6px solid #95c41e;
+    border-top: 6px solid #97c055;
 }
 
 .slideshow-container {
@@ -145,7 +145,7 @@
 .news-1 {
     margin: 0px 20px 0px 30px;
     width: 35%;
-    border-top: 6px solid #95c41e;
+    border-top: 6px solid #97c055;
 }
 
 .news-1 img {
@@ -155,7 +155,7 @@
 
 .news-2 {
     width: 57%;
-    border-top: 6px solid #95c41e;
+    border-top: 6px solid #97c055;
 }
 
 .news-2 img {
@@ -166,7 +166,7 @@
 .news-3 {
     margin: 30px;
     width: 100%;
-    border-top: 6px solid #95c41e;
+    border-top: 6px solid #97c055;
 }
 
 .news-3 img {
@@ -191,7 +191,7 @@
     padding: 10px 20px 10px 20px;
     width: 100%;
     font-weight: lighter;
-    background-color: black;
+    background-color:   #100E0F;
     color: white;
     font-size: 25px;
     font-family: 'Lato', sans-serif;
@@ -210,7 +210,7 @@
 
 .projects {
     margin: 30px;
-    border-top: 6px solid #95c41e;
+    border-top: 6px solid #97c055;
 }
 
 .projects-div {

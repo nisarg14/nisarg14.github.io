@@ -13,11 +13,11 @@ body {
     position: relative;
     margin: 0;
     min-height: 100%;
-    background-color: #f6fdf6;
+    background-color: #ffffff;
 }
 
 .header {
-    background-color: #f6fdf6;
+    background-color: #ffffff;
     color: #000000;
     width: 100%;
     margin: 0px;
@@ -83,8 +83,8 @@ body {
     padding-bottom: 0;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #f6fdf6;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #100e0f;
 }
 
 .footer {
@@ -92,8 +92,8 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     border: none;
-    background-color: #e7f2ce;
-    color: black;
+    background-color: #ffffff;
+    color: #8fba46;
     display: flex;
     flex-flow: column wrap;
 }
@@ -140,7 +140,7 @@ body {
 }
 
 .foter-1-address a:hover {
-    color: #95c41e;
+    color: #97C055;
     transition: 0.5s ease-out;
 }
 
@@ -219,6 +219,7 @@ body {
     margin: 10px;
     padding: 10px;
     border: none;
+    color: black;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
@@ -233,7 +234,7 @@ body {
 }
 
 .footer-2 a:hover {
-    color: #95c41e;
+    color: #97C055;
     transition: 0.5s ease-out;
 }
 
