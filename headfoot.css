@@ -13,12 +13,12 @@ body {
     position: relative;
     margin: 0;
     min-height: 100%;
-    background-color: #ffffff;
+    background-color: #100e0f;
 }
 
 .header {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #100e0f;
+    color: #ffffff;
     width: 100%;
     margin: 0px;
     padding-left: 40px;
@@ -60,7 +60,7 @@ body {
 .header-navbar li a {
     text-decoration: none;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     font-size: 17px;
     font-weight: lighter;
     padding: 10px;
@@ -83,8 +83,8 @@ body {
     padding-bottom: 0;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #ffffff;
-    color: #100e0f;
+    background-color:  #100e0f;
+    color: #ffffff;
 }
 
 .footer {
@@ -92,7 +92,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     border: none;
-    background-color: #ffffff;
+    background-color: #100e0f;
     color: #8fba46;
     display: flex;
     flex-flow: column wrap;
@@ -133,7 +133,7 @@ body {
 .foter-1-address a {
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: #ffffff;
     margin: 0px auto;
     padding: 0px auto;
     border: none;
@@ -219,7 +219,7 @@ body {
     margin: 10px;
     padding: 10px;
     border: none;
-    color: black;
+    color: #ffffff;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
@@ -227,7 +227,7 @@ body {
 .footer-2 a {
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: #ffffff;
     margin: 0px auto;
     padding: 0px auto;
     border: none;
@@ -251,7 +251,7 @@ body {
 .footer-copyright p {
     align-items: center;
     text-align: center;
-    color: black;
+    color: #ffffff;
 }
 
 @media screen and (min-width:600px) {

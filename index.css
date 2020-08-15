@@ -154,7 +154,7 @@
 }
 
 .news-2 {
-    width: 57%;
+    width: 58%;
     border-top: 6px solid #97c055;
 }
 
@@ -191,8 +191,8 @@
     padding: 10px 20px 10px 20px;
     width: 100%;
     font-weight: lighter;
-    background-color:   #100E0F;
-    color: white;
+    background-color:   #97c055;
+    color: #100e0f;
     font-size: 25px;
     font-family: 'Lato', sans-serif;
 }
@@ -202,8 +202,8 @@
     padding: 0px 20px 10px 20px;
     width: 100%;
     height: 60px;
-    background-color: black;
-    color: white;
+    background-color: #97c055;
+    color: #100e0f;
     font-size: 15px;
     font-family: 'Lato', sans-serif;
 }
@@ -228,8 +228,8 @@
     margin: 0px;
     padding: 10px 20px 10px 20px;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color:#97c055;
+    color:#100e0f;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
 }
