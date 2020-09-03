@@ -73,6 +73,39 @@ body {
     transition: 0.5s ease-out;
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -25%;
+    background-color: #100e0f;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #282829;
+    font-size: 20px;
+    padding: 6px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    
+    color: #f5f2eb;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 10px;
+}
+
+
 .acti {
     display: block;
 }
